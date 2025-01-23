@@ -1,0 +1,78 @@
+@media screen and (max-width: 1720px) {
+    body {
+        font-size: 14px;
+    }
+    h1, .h1 {
+        font-size: 30px;
+    }
+    h2, .h2 {
+        font-size: 26px;
+    }
+    h3, .h3 {
+        font-size: 18px;
+    }
+    h4, .h4 {
+        font-size: 16px;
+    }
+    h5, .h5 {
+        font-size: 14px;
+    }
+    h6, .h6 {
+        font-size: 12px;
+    }
+
+    .header__data-advantage {
+        font-size: 12px;
+    }
+    .menucatalog__general-a {
+        min-height: 50px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .sectionhome__data-items:nth-child(1) .sectionhome__data-item:nth-child(2), 
+    .sectionhome__data-items:nth-child(2) .sectionhome__data-item:nth-child(3) {
+        min-width: 250px;
+        width: 250px;
+    }
+
+    /* */
+    .sectionadvantage__block {
+        margin: 0 -10px;
+    }
+    .sectionadvantage__item-block {
+        padding: 20px 15px;
+    }
+    .sectionadvantage__item {
+        padding: 0 10px;
+    }
+    .sectionadvantage__item-top {
+        min-height: 50px;
+        margin-bottom: 10px;
+    }
+    .sectionadvantage__item-icon {
+        width: 30px;
+    }
+
+    /* */
+    .sectionwork__item-step {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .sectionwork__item-description {
+        font-size: 12px;
+    }
+
+    /* */
+    .sectionnews__block-form {
+        min-width: 450px;
+        width: 450px;
+    }
+    .sectionnews__form-icon {
+        min-width: 80px;
+        width: 80px;
+    }
+
+
+    /* */
+     
+}

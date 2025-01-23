@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import './fontawesome.css';
+@import './theme.css';
+
+.table thead td span[data-bs-toggle="tooltip"]:after, 
+.form-label span:after,
+.form-check-label span:after {
+    font-family: FontAwesome;
+    color: #0d6efd;
+    content: "\f059";
+    margin-left: 4px;
+}
+
+/* Toast */
+.toast {
+    position: fixed;
+    top: 15px;
+    right: 0;
+    z-index: 9999;
+    padding: 0 15px;
+
+    --toast-color: #fff;
+    --toast-shadow: #00000021;
+    --toast-close: #333;
+
+    --toast-type-error: #f34a5a;
+    --toast-type-error-color: #ffffff;
+    --toast-type-success: #09ba69;
+    --toast-type-success-color: #ffffff;
+    --toast-type-info: #1298ad;
+    --toast-type-info-color: #ffffff;
+    --toast-type-warning: #ffcf40;
+    --toast-type-warning-color: #333333;
+}
+.toast__alert {
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px var(--toast-shadow);
+    max-width: 600px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 45px 15px 20px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--toast-color);
+    -webkit-transform: translatex(25rem);
+    -moz-transform: translatex(25rem);
+    -o-transform: translatex(25rem);
+    -ms-transform: translatex(25rem);
+    transform: translatex(25rem);
+    -webkit-transition: transform .5s cubic-bezier(0.24, 0.91, 0.62, 1.24);
+    -moz-transition: transform .5s cubic-bezier(0.24, 0.91, 0.62, 1.24);
+    -o-transition: transform .5s cubic-bezier(0.24, 0.91, 0.62, 1.24);
+    -ms-transition: transform .5s cubic-bezier(0.24, 0.91, 0.62, 1.24);
+    transition: transform .5s cubic-bezier(0.24, 0.91, 0.62, 1.24);
+}
+.toast__alert--in {
+    -webkit-transform: translatex(0);
+    -moz-transform: translatex(0);
+    -o-transform: translatex(0);
+    -ms-transform: translatex(0);
+    transform: translatex(0);
+}
+/* Toast message types */
+.toast__alert--error {
+    background-color: var(--toast-type-error);
+    color: var(--toast-type-error-color);
+    fill: var(--toast-type-error-color);
+    stroke: var(--toast-type-error-color);
+}
+.toast__alert--success {
+    background-color: var(--toast-type-success);
+    color: var(--toast-type-success-color);
+    fill: var(--toast-type-success-color);
+    stroke: var(--toast-type-success-color);
+}
+.toast__alert--info {
+    background-color: var(--toast-type-info);
+    color: var(--toast-type-info-color);
+    fill: var(--toast-type-info-color);
+    stroke: var(--toast-type-info-color);
+}
+.toast__alert--warning {
+    background-color: var(--toast-type-warning);
+    color: var(--toast-type-warning-color);
+    fill: var(--toast-type-warning-color);
+    stroke: var(--toast-type-warning-color);
+}
+/* END Toast message types */
+.toast__alert-close {
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.toast__alert-close:hover {
+    opacity: 1;
+}
+.toast__alert-close:before, .toast__alert-close:after {
+    position: absolute;
+    left: 7.5px;
+    content: ' ';
+    height: 18px;
+    width: 1px;
+    background-color: #333;
+}
+.toast__alert-close:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.toast__alert-close:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* END Toast */

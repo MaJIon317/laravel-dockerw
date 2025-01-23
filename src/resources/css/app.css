@@ -1,0 +1,10 @@
+@import './font.css';
+@import './swiper.css';
+
+@import './media/style.css';
+@import url('./media/desctop.css') screen and (max-width: 1720px);
+@import url('./media/laptop.css') screen and (max-width: 1360px);
+@import url('./media/tablet.css') screen and (max-width: 1024px);
+@import url('./media/min-mobile.css') screen and (min-width: 769px);
+@import url('./media/mobile.css') screen and (max-width: 768px);
+@import url('./media/mobile-sm.css') screen and (max-width: 500px);

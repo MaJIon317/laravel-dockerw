@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://new.million-otkrytok.ru/sitemap.xml

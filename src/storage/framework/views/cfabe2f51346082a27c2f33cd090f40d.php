@@ -1,0 +1,1 @@
+<?php echo $html ?: $text; ?><?php /**PATH /var/www/resources/views/mail/constructor/html.blade.php ENDPATH**/ ?>

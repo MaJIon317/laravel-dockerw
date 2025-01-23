@@ -1,0 +1,9 @@
+DirectoryIndex index.php index.html
+
+RewriteEngine on 
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]

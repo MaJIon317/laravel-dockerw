@@ -1,0 +1,33 @@
+{
+    "Checkout": "Оформление заказа",
+    "Orders": "Заказы",
+    "Order №:id from :created_at": "Заказ №:id от :created_at",
+    "Order №:id has been updated": "Заказ №:id был обновлен",
+    "Back to the cart": "Назад в корзину",
+
+    "User's Chat ID": "Chat ID пользователя",
+    "Send logs": "Отправка логов",
+    "Delete": "Удалить",
+
+    "New": "Новый",
+    "Processing": "В сборке",
+    "Delivery": "В доставке",
+    "Delivered": "Доставлен",
+    "Completed": "Завершенный",
+    "Cancelled": "Отмененный",
+ 
+    "Detailed information for debugging purposes, such as variable values, function calls, or SQL queries.": "Подробная информация для отладочных целей, такая как значения переменных, вызовы функций или SQL-запросы.",
+    "General information that is useful for understanding the normal flow of an application, such as user actions, system events, or performance metrics.": "Общая информация, которая полезна для понимания нормального потока приложения, например действий пользователя, системных событий или метрик производительности.",
+    "Important information that is not an error, but that may require attention, such as configuration changes, outdated features, or problems with external services.": "Важная информация, не являющаяся ошибкой, но которая может потребовать внимания, например, изменение конфигурации, устаревание функций или проблемы с внешними службами.",
+    "Potential issues that may affect the functionality or performance of the application, but are not critical or fatal, such as validation errors, missing resources, or slow responses.": "Потенциальные проблемы, которые могут повлиять на функциональность или производительность приложения, но не являются критическими или фатальными, например ошибки валидации, недостающие ресурсы или медленные ответы.",
+    "Actual errors that prevent the application from performing its intended task, such as exceptions, database errors, or network failures.": "Фактические ошибки, мешающие приложению выполнять намеченную задачу, например исключения, ошибки базы данных или сбои сети.",
+    "Serious errors that require immediate attention and may cause the application to crash or make it unavailable, such as memory leaks, disk crashes, or security breaches.": "Серьёзные ошибки, которые требуют немедленного внимания и могут привести к сбою приложения или сделать его недоступным, например утечки памяти, сбой диска или нарушение безопасности.",
+    "Urgent errors that require human intervention and may affect other systems or services that depend on the application, such as payment failures, data corruption, or system overload.": "Неотложные ошибки, которые требуют вмешательства человека и могут повлиять на другие системы или службы, зависящие от приложения, например сбои платежей, повреждение данных или перегрузка системы.",
+    "Catastrophic errors that make the application completely unusable and may require a reboot or system restore, such as kernel panic, hardware failures, or power outages.": "Катастрофические ошибки, которые делают приложение полностью непригодным для использования и могут потребовать перезагрузки или восстановления системы, таких как kernel panic, аппаратные сбои или перебои в подаче электроэнергии.",
+
+    "The general settings have been changed": "Общие настройки были изменены",
+    "Couldn't find the order status \":status\" when integrating with 1C": "Не удалось найти статус заказа \":status\" при интеграции с 1С",
+
+    "You have been successfully removed from the mailing list": "Вы были успешно удалены из списка рассылки",
+    "Your E-mail is not on the mailing list": "Вашего E-mail нет в списке рассылки"
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+    .menucatalog__children-title {
+        font-size: 1rem;
+    }
+    .menucatalog__children-a {
+        font-size: 15px;
+    }
+    .menucatalog__children-lis {
+        width: 100%;
+    }
+    .menucatalog__children-ul,
+    .menucatalog__children-child_uls {
+        gap: 15px 0;
+    }
+
+}
